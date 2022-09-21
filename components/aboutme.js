@@ -23,13 +23,13 @@ const contact =[
       'url': 'https://www.linkedin.com/in/patrick-basamot-2874a3211/',
       'id': 3,
   },
-  // {
-  //     'name': 'Frontend Mentor',
-  //     'icon': <SiFrontendmentor size={30}/>,
-  //     'account': "@patrickbasamot",
-  //     'url': 'https://www.frontendmentor.io/profile/patrickbasamot',
-  //     'id': 4,
-  // }
+  {
+      'name': 'Frontend Mentor',
+      'icon': <SiFrontendmentor size={30}/>,
+      'account': "@patrickbasamot",
+      'url': 'https://www.frontendmentor.io/profile/patrickbasamot',
+      'id': 4,
+  }
 ]
 export default function Aboutme(){
   return(
@@ -56,14 +56,10 @@ export default function Aboutme(){
      
       {/* <p className="text-xs mx-auto text-justify mt-3 text-#a7a9be md:text-base"> 
       <br/> <br/>
-      
-      <br/> <br/>
-   
-     
-
-      
+      <br/> <br/>   
       </p> */}
-      <ul className='list-disc pt-4'>
+      
+      <ul className='list-disc mt-3 text-xs text-justify md:text-base'>
 
         <li><p>I am looking for an entry/junior level position in Front-End Web Development that will further develop my skills and knowledge in Web Development specifically with ReactJS.</p></li>
 
