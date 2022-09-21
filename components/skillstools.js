@@ -22,7 +22,7 @@ export default function Skills(){
    },
 
    {
-        'name': 'Antd',
+        'name': 'Ant Design',
         'icon': <SiAntdesign size={30}/>,
         'id': 4,
     },

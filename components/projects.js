@@ -2,8 +2,6 @@ import { FaReact,FaAndroid,FaStackOverflow } from 'react-icons/fa';
 import { SiFirebase,SiAntdesign, SiHtml5,SiCss3,SiJavascript, SiReact, SiRedux } from "react-icons/si";
 
 export default function Projects(){
-
-  const capstoneTitle = <span className='text-red-500'>SAVER</span>
   const project =[
     {
       'name': ` Capstone Project: A Disaster Risk Reduction, Safety Management and Emergency Response Mobile Application`,
@@ -34,7 +32,7 @@ export default function Projects(){
         <h1 className='text-lg text-#fffffe text-center md:text-left text-2xl'> <ins className='text-red-500'>&lt;</ins> Projects/Contribution  <ins className='text-red-500'>&gt;</ins>
       </h1>
 
-      <ul className="grid grid-cols-1 gap-2 justify-items-center pt-6 md:justify-items-start ">
+      <ul className="grid grid-cols-1 gap-2 justify-items-center pt-6 md:grid-cols-2 gap-x-10 justify-items-center place-items-center ">
         {
             project.map((i)=>{ return (<div>
           <h1 className='text-sm text-#fffffe md:text-base text-left'> <span class="inline-block py-1.5 px-2.5 leading-none text-center whitespace-nowrap align-baseline font-bold bg-red-500 text-white rounded">{i.title}</span></h1>

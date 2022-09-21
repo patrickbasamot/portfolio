@@ -37,7 +37,7 @@ export default function Aboutme(){
   <div className="snap-center w-screen h-screen flex flex-col px-12 pt-10">
     <figure >
       
-      <img className="rounded-full h-22 w-22 mx-auto md:rounded-full h-32 w-32" src="/me.jpg" alt="" width="500" height="450"/>
+      <img className="rounded-full object-cover h-25 w-25 mx-auto md:rounded-full h-32 w-32" src="/Patrick.jpg" alt="" width="500" height="450"/>
       
       <ul className="flex justify-center gap-5 pt-4 md:justify-items-start ">
         {
@@ -67,7 +67,7 @@ export default function Aboutme(){
         <li><p>Willing to be trained.</p></li>
         <li><p> I am an Information Technology Graduate in Aklan State University College of Industrial Technology Batch 2022 Major in Software Engineering.</p></li>
 
-        <li><p>Check my resume <Link href={'https://rxresu.me/r/8Hv9an3R'}><a className='underline '>here</a></Link></p></li>
+        <li><p>Check my resume <Link href={'/Patrick-M-Basamot.pdf'}><a className='underline '>here</a></Link></p></li>
       </ul>
    
      </figcaption>
