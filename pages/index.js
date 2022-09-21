@@ -3,7 +3,7 @@ import Container from '../components/container'
 import Aboutme from '../components/aboutme'
 import Tools from '../components/skillstools'
 import Projects from '../components/projects'
-import Contacts from '../components/contact'
+import Notes from '../components/contact'
 
 function Beta(){
   <dialog>This is just a simple concept.</dialog>
@@ -19,7 +19,7 @@ export default function Home() {
       <Aboutme/>
       <Tools/>
       <Projects/>
-      <Contacts/>
+      <Notes/>
     </Container>
   )
 }
