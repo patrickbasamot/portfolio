@@ -56,8 +56,8 @@ export default function Skills(){
     <div className="snap-center w-screen h-screen flex flex-col px-12 pt-8 md:pt-12">
             <h1 className='text-#fffffe text-lg text-center md:text-left text-2xl'> <ins className='text-red-500'>&lt;</ins> Skills and Tools  <ins className='text-red-500'>&gt;</ins>
             </h1>
-          
-        <ul className="grid grid-cols-4 gap-3 pt-6 justify-items-center lg:flex pt-6 ">
+            <p className='text-xs pt-3 md:text-base'>Tools I have used <strong className='text-red-500'>before </strong>:</p>
+        <ul className="grid grid-cols-4 gap-3 pt-2 justify-items-center lg:flex pt-6 ">
         {
             tools.map((i)=>{ return(  <Tooltip key={i.id} content={i.name}>
             <Button variant="gradient">{i.icon}</Button>

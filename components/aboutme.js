@@ -58,13 +58,13 @@ export default function Aboutme(){
       <br/> <br/>
       <br/> <br/>   
       </p> */}
-      
+
       <ul className='list-disc mt-3 text-xs text-justify md:text-base'>
 
-        <li><p>I am looking for an entry/junior level position in Front-End Web Development that will further develop my skills and knowledge in Web Development specifically with ReactJS.</p></li>
+        <li><p>I am looking for an <strong className='text-red-500'>entry/junior</strong> level position in <strong className='text-red-500'>Front-End Web Development</strong> that will further develop my skills and knowledge in Web Development specifically with ReactJS.</p></li>
 
         <li><p>Passionate about Web Developing and enjoy making them.</p></li>
-
+        <li><p>Willing to be trained.</p></li>
         <li><p> I am an Information Technology Graduate in Aklan State University College of Industrial Technology Batch 2022 Major in Software Engineering.</p></li>
       </ul>
    
