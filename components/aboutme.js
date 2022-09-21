@@ -66,6 +66,8 @@ export default function Aboutme(){
         <li><p>Passionate about Web Developing and enjoy making them.</p></li>
         <li><p>Willing to be trained.</p></li>
         <li><p> I am an Information Technology Graduate in Aklan State University College of Industrial Technology Batch 2022 Major in Software Engineering.</p></li>
+
+        <li><p>Check my resume <Link href={'https://rxresu.me/r/8Hv9an3R'}><a className='underline '>here</a></Link></p></li>
       </ul>
    
      </figcaption>
