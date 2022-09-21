@@ -51,7 +51,7 @@ export default function Aboutme(){
         </ul>
      <figcaption>
       
-      <h1 className='text-#fffffe text-center pt-4 text-lg md:text-2xl'> <ins className='text-red-500'>&lt;</ins> Patrick Basamot  <ins className='text-red-500'>&gt;</ins>
+      <h1 className='text-#fffffe text-center pt-4 text-lg md:text-2xl'> <ins className='text-red-500'>&lt;</ins> Patrick Morales Basamot  <ins className='text-red-500'>&gt;</ins>
       </h1>
      
       <p className="text-xs mx-auto text-justify mt-3 text-#a7a9be md:text-base"> I am looking for an entry/junior level position in Front-End Web Development that will further develop my skills and knowledge in Web Development specifically with ReactJS.<br/> <br/> I am an Information Technology Graduate in Aklan State University College of Industrial Technology Batch 2022 Major in Software Engineering. </p>
