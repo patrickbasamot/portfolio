@@ -39,9 +39,9 @@ export default function Projects(){
             project.map((i)=>{ return (<div>
           <h1 className='text-sm text-#fffffe md:text-base text-left'> <span class="inline-block py-1.5 px-2.5 leading-none text-center whitespace-nowrap align-baseline font-bold bg-red-500 text-white rounded">{i.title}</span></h1>
           
-          <p className='text-xs pt-2 text-justify md:text-base'>{i.name} &nbsp; {i.description} </p>
-          <p className='text-xs md:text-base'>Role: <span className='text-red-500'>{i.role}</span> </p>
-          <li className='text-xs flex gap-2 items-center pt-1 md:text-base'>Tools used: {i.tools}</li>
+          <p className='text-sm pt-2 text-justify md:text-base'>{i.name} &nbsp; {i.description} </p>
+          <p className='text-sm md:text-base'>Role: <span className='text-red-500'>{i.role}</span> </p>
+          <li className='text-sm flex gap-2 items-center pt-1 md:text-base'>Tools used: {i.tools}</li>
           </div>)})
         }
         </ul>

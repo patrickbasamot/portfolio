@@ -59,7 +59,7 @@ export default function Aboutme(){
       <br/> <br/>   
       </p> */}
 
-      <ul className='list-disc mt-3 text-xs text-justify md:text-base'>
+      <ul className='list-disc mt-3 text-sm text-justify md:text-base'>
 
         <li><p>I am looking for an <strong className='text-red-500'>entry/junior</strong> level position in <strong className='text-red-500'>Front-End Web Development</strong> that will further develop my skills and knowledge in Web Development specifically with ReactJS.</p></li>
 
