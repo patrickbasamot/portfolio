@@ -63,11 +63,18 @@ export default function Aboutme(){
 
         <li><p>I am looking for an <strong className='text-red-500'>entry/junior</strong> level position in <strong className='text-red-500'>Front-End Web Development</strong> that will further develop my skills and knowledge in Web Development specifically with ReactJS.</p></li>
 
-        <li><p>Passionate about Web Developing and enjoy making them.</p></li>
-        <li><p>Willing to be trained.</p></li>
+        <li><p>Took an interest about web developing last year and then tried to take a course in The Odin Project for the web developing fundamentals.</p></li>
+
+        <li><p>Chosen to be on a collaboration project with someone working from the industry. Through this project I really enjoyed web developing in general. The struggle to learn a new CSS framework like Tailwind,Ant Design,Bootstrap and JS Framework/library like ReactJS,the feeling of fullfillment when I actually contributing something meaningful in the project, having a mentor which also guide me and gave me a huge confidence boost that I can do the given task.      
+        </p></li>
+
+        <li><p>Passionate about Web Developing.</p></li>
+        
         <li><p> I am an Information Technology Graduate in Aklan State University College of Industrial Technology Batch 2022 Major in Software Engineering.</p></li>
 
-        <li><p>Check my resume <Link href={'/Patrick-M-Basamot.pdf'}><a className='underline '>here</a></Link></p></li>
+        <li><p>Check my resume <Link href={'/Patrick-M-Basamot.pdf'}><a className='underline '>here.</a></Link></p></li>
+      
+        <li><p>Willing to be trained.</p></li>
       </ul>
    
      </figcaption>
