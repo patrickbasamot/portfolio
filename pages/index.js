@@ -12,7 +12,7 @@ export default function Home() {
   return (
     <Container>
       <Head>
-         <title>Trickster</title>
+         <title>Patrick B.</title>
         <meta name="viewport" content="initial-scale=1.0, width=device-width" />
       </Head>
     <Beta/>

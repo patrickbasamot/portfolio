@@ -1,5 +1,5 @@
 import { FaReact,FaAndroid,FaStackOverflow } from 'react-icons/fa';
-import { SiFirebase,SiAntdesign, SiHtml5,SiCss3,SiJavascript } from "react-icons/si";
+import { SiFirebase,SiAntdesign, SiHtml5,SiCss3,SiJavascript,SiPostman } from "react-icons/si";
 import { Tooltip, Button } from "@material-tailwind/react";
 
 export default function Skills(){
@@ -50,7 +50,12 @@ export default function Skills(){
         'icon': <FaStackOverflow size={30}/>,
         'id': 8,
      },
-   
+     
+     {
+        'name': 'Postman',
+        'icon': <SiPostman color='#FF4e11' size={30}/>,
+        'id': 8,
+     },
 ]
     return(
     <div className="snap-center w-screen h-screen flex flex-col px-12 pt-8 md:pt-12">

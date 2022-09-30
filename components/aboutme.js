@@ -61,16 +61,16 @@ export default function Aboutme(){
 
       <ul className='list-disc mt-3 text-sm text-left md:text-base'>
 
-        <li><p>I am looking for an <strong className='text-red-500'>entry/junior</strong> level position in <strong className='text-red-500'>Front-End Web Development</strong> that will further develop my skills and knowledge in Web Development specifically with ReactJS.</p></li>
+        <li><p>I am looking for an <strong className='text-red-500'>entry/junior</strong> level position in <strong className='text-red-500'>Associate Software Engineer</strong> or Web Development that will further develop my skills and knowledge in Web Development specifically with ReactJS.</p></li>
 
-        <li><p>Took an <strong className='text-red-500'>interest</strong> about web developing last year and then tried to take a course Web developing Fundamentals from The Odin Project.</p></li>
+        <li><p>Took a <strong className='text-red-500'>interest</strong> about web developing last year and then tried to take a course Web developing Fundamentals from The Odin Project.</p></li>
 
         {/* <li><p>Chosen to be on a <strong className='text-red-500'>collaboration project</strong> with Sir <strong><Link href={'www.rogermolas.com'}><a className='underline'>Roger Molas</a></Link> </strong> on an ASU Project. Through this project I really enjoyed web developing in general. The struggle to learn a new CSS framework like Ant Design and JS Framework/library like ReactJS and also Redux which I am still struggling setting it up on my own,but the feeling of fullfillment when I actually contributed something meaningful in the project and having a mentor which also guide me and gave me a huge confidence boost that I can do the given task.       
         </p></li> */}
         
         <li><p> I am an <strong className='text-red-500'>Information Technology</strong> Graduate in Aklan State University College of Industrial Technology Batch 2022 Major in Software Engineering.</p></li>
 
-        <li><p>Check my <strong className='text-red-500'>resume</strong> <Link href={'/Patrick-M-Basamot.pdf'}><a className='underline '>here.</a></Link></p></li>
+        <li><p>Check my <strong className='text-red-500'>resume</strong> <Link href={'/Patrick_Basamot.pdf'}><a className='underline '>here.</a></Link></p></li>
       
       </ul>
    
